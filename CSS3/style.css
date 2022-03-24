@@ -1,27 +1,11 @@
-main h1{
-    color: green
+html {
+    color:rgb(207, 98, 184);
+    background-color: rgb(22, 13, 13);
+    background-image: url("./cropped-1920-1080-941323.jpg");
+    background-repeat: no-repeat;
+    background-size: covergi;
 }
 
-h2{
-    color: red;
-}
-
-.titulo-aula{
-    text-decoration: underline;
-}
-
-.texto-azul{
-    color:blue
-}
-
-.texto-vermelho{
-    color:red
-}
-
-#titulo-primeira{
-    text-decoration: none;
-}
-
-#titulo-segunda{
-    color: brown;
+main{
+    background-color: rgb(122, 105, 105);
 }
