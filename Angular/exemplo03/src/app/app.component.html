@@ -12,3 +12,14 @@
   <div *ngSwitchCase="cursos[1]"> Java</div>
   <div *ngSwitchCase="cursos[2]"> C#</div>
 </div>
+
+<style>
+  .ligada{
+    color: green;
+  }
+  .desligada{
+    color: red;
+  }
+</style>
+
+<div [ngClass]="{'ligada': ligada, 'desligada': !ligada}">Lâmpada</div>

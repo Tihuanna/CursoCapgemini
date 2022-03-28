@@ -23,5 +23,7 @@ export class AppComponent {
 
 curso_selecionado = "Angular";
 
+//Diretiva NG Class
 
+  ligada: boolean = true;
 }
