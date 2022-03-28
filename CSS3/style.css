@@ -10,5 +10,14 @@ main{
     background-color: rgb(122, 105, 105);
     font-family: cursive;
     
+    
+}
+
+main p{
+    text-indent: 2rem;
+}
+
+h1, h2 {
+    text-align: center;
 }
 
