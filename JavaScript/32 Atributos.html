@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+    <script>
+        function alterarlink(){
+
+            //Obter o link
+            var link = document.getElementsByTagName("a")[0];
+            
+            //Alterar o link
+            link.href = "http://www.google.com.br";
+            
+        }
+    </script>
+</head>
+<body>
+    <a href="http://www.proway.com.br">Clique aqui/a>
+        <button onclick="alterarlink()">Alterar o link</button>
+</body>
+</html>

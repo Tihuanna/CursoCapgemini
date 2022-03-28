@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 31 - CSS</title>
+    <script>
+        //Obter o elemento h1
+        function acao(){
+        var texto = document.getElementsByTagName("h1")[0];
+        //css
+        texto.style.color = "red";
+        texto.style.fontSize = "150px";
+        
+        //Alterar o conteudo 
+        texto.innerHTML = "Curso de JavaScript";
+        }
+    </script>
+</head>
+<body>
+    <h1> JavaScript</h1>
+    <button onclick="acao()">Clique aqui</button>
+</body>
+</html>
