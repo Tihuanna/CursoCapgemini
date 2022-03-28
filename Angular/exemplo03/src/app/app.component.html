@@ -1,0 +1,14 @@
+<input type="button" value="enviar" (click)="this.acaoNgIf() ">
+<h1 *ngIf="this.exibirTexto">Aprendendo Angular</h1>
+<hr>
+<ul *ngFor="let curso of cursos; let indice = index">
+  <li>{{indice+1}}° {{curso}}</li>
+</ul>
+
+<hr>
+
+<div [ngSwitch] = "curso_selecionado">
+  <div *ngSwitchCase="cursos[0]"> Angular</div>
+  <div *ngSwitchCase="cursos[1]"> Java</div>
+  <div *ngSwitchCase="cursos[2]"> C#</div>
+</div>
