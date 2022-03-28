@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 27 - Evento teclado</title>
+
+    <script>
+        /*
+        onKeyUp: exibe o caractere e depois executa a ação
+        onKeyDown:  executa a ação e depois exibe o caractere
+        onKeyPress: executa a ação e depois exibe o caractere (Não tem suporte as teclas f1...f12, tab, etc)
+
+        */
+
+        function exibir() {
+            var campo = document.getElementById("campo").value;
+            alert(campo);
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="campo" onkeyup="exibir()">
+</body>
+
+</html>l
