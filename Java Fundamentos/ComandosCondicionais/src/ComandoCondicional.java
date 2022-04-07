@@ -31,5 +31,24 @@ public class ComandoCondicional {
 				}else {
 					System.out.println("Condição composta 2 - Numero 1 igual ao numero 2");
 				}
+				
+				//cOMANDO CONDICIONAL SWITCH
+				char opcao = '1';
+				switch (opcao) {
+				case 1 :{
+					System.out.println("Chame programa de inclusão");
+				break;
+				}
+				case 2 :{
+					System.out.println("Chame programa de inclusão");
+				break;
+				}
+				case 3 :{
+					System.out.println("Chame programa de inclusão");
+				break;
+				}
+				default: 
+					throw new IllegalArgumentException("Opção invalida: "+ opcao+ "Redigite")
+				}
 	}
 }
