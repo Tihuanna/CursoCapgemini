@@ -48,7 +48,7 @@ public class ComandoCondicional {
 				break;
 				}
 				default: 
-					throw new IllegalArgumentException("Opção invalida: "+ opcao+ "Redigite")
+					throw new IllegalArgumentException("Opção invalida: "+ opcao+ "Redigite");
 				}
 	}
 }
